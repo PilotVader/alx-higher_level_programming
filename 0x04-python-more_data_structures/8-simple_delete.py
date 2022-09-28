@@ -8,4 +8,4 @@ def simple_delete(a_dict, key=""):
         return None
     if key in a_dict:
         del a_dict[key]
-    return 
+    return a_dict 
